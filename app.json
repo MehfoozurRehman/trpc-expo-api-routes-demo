@@ -4,11 +4,11 @@
     "slug": "trpc-expo-api-routes-demo",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./src/assets/images/splash.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,16 +16,17 @@
     "ios": {
       "supportsTablet": true
     },
+    "newArchEnabled": true,
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "server",
-      "favicon": "./src/assets/images/favicon.png"
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       [
@@ -33,7 +34,8 @@
         {
           "origin": "https://trpc-expo-demo.netlify.app"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
