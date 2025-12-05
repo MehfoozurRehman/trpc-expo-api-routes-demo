@@ -22,7 +22,7 @@ importers:
         version: 6.1.18(react-native@0.82.1(@babel/core@7.28.5)(@types/react@18.3.27)(react@18.3.1))(react@18.3.1)
       '@trpc-swr/client':
         specifier: ^2.0.1
-        version: 2.0.1(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react@18.3.1)(swr@2.3.6(react@18.3.1))
+        version: 2.0.1(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react@18.3.1)(swr@2.3.7(react@18.3.1))
       '@trpc/client':
         specifier: ^10.45.2
         version: 10.45.2(@trpc/server@10.45.2)
@@ -72,8 +72,8 @@ importers:
         specifier: ~0.21.2
         version: 0.21.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       swr:
-        specifier: ^2.3.6
-        version: 2.3.6(react@18.3.1)
+        specifier: ^2.3.7
+        version: 2.3.7(react@18.3.1)
       zod:
         specifier: ^3.25.76
         version: 3.25.76
@@ -3413,8 +3413,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  swr@2.3.6:
-    resolution: {integrity: sha512-wfHRmHWk/isGNMwlLGlZX5Gzz/uTgo0o2IRuTMcf4CPuPFJZlq0rDaKUx+ozB5nBOReNV1kiOyzMfj+MBMikLw==}
+  swr@2.3.7:
+    resolution: {integrity: sha512-ZEquQ82QvalqTxhBVv/DlAg2mbmUjF4UgpPg9wwk4ufb9rQnZXh1iKyyKBqV6bQGu1Ie7L1QwSYO07qFIa1p+g==}
     peerDependencies:
       react: ^16.11.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -3970,7 +3970,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.5
       '@babel/helper-plugin-utils': 7.26.5
-      '@babel/traverse': 7.26.5
+      '@babel/traverse': 7.28.5
     transitivePeerDependencies:
       - supports-color
 
@@ -3997,7 +3997,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.5
       '@babel/helper-plugin-utils': 7.26.5
-      '@babel/traverse': 7.26.5
+      '@babel/traverse': 7.28.5
     transitivePeerDependencies:
       - supports-color
 
@@ -4308,7 +4308,7 @@ snapshots:
   '@babel/plugin-transform-modules-amd@7.25.9(@babel/core@7.28.5)':
     dependencies:
       '@babel/core': 7.28.5
-      '@babel/helper-module-transforms': 7.26.0(@babel/core@7.28.5)
+      '@babel/helper-module-transforms': 7.28.3(@babel/core@7.28.5)
       '@babel/helper-plugin-utils': 7.26.5
     transitivePeerDependencies:
       - supports-color
@@ -4324,17 +4324,17 @@ snapshots:
   '@babel/plugin-transform-modules-systemjs@7.25.9(@babel/core@7.28.5)':
     dependencies:
       '@babel/core': 7.28.5
-      '@babel/helper-module-transforms': 7.26.0(@babel/core@7.28.5)
+      '@babel/helper-module-transforms': 7.28.3(@babel/core@7.28.5)
       '@babel/helper-plugin-utils': 7.26.5
-      '@babel/helper-validator-identifier': 7.25.9
-      '@babel/traverse': 7.26.5
+      '@babel/helper-validator-identifier': 7.28.5
+      '@babel/traverse': 7.28.5
     transitivePeerDependencies:
       - supports-color
 
   '@babel/plugin-transform-modules-umd@7.25.9(@babel/core@7.28.5)':
     dependencies:
       '@babel/core': 7.28.5
-      '@babel/helper-module-transforms': 7.26.0(@babel/core@7.28.5)
+      '@babel/helper-module-transforms': 7.28.3(@babel/core@7.28.5)
       '@babel/helper-plugin-utils': 7.26.5
     transitivePeerDependencies:
       - supports-color
@@ -4547,11 +4547,11 @@ snapshots:
 
   '@babel/preset-env@7.26.0(@babel/core@7.28.5)':
     dependencies:
-      '@babel/compat-data': 7.26.5
+      '@babel/compat-data': 7.28.5
       '@babel/core': 7.28.5
-      '@babel/helper-compilation-targets': 7.26.5
+      '@babel/helper-compilation-targets': 7.27.2
       '@babel/helper-plugin-utils': 7.26.5
-      '@babel/helper-validator-option': 7.25.9
+      '@babel/helper-validator-option': 7.27.1
       '@babel/plugin-bugfix-firefox-class-in-computed-class-key': 7.25.9(@babel/core@7.28.5)
       '@babel/plugin-bugfix-safari-class-field-initializer-scope': 7.25.9(@babel/core@7.28.5)
       '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': 7.25.9(@babel/core@7.28.5)
@@ -4631,7 +4631,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.28.5
       '@babel/helper-plugin-utils': 7.26.5
-      '@babel/types': 7.26.5
+      '@babel/types': 7.28.5
       esutils: 2.0.3
 
   '@babel/preset-react@7.26.3(@babel/core@7.28.5)':
@@ -5515,12 +5515,12 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.1
 
-  '@trpc-swr/client@2.0.1(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react@18.3.1)(swr@2.3.6(react@18.3.1))':
+  '@trpc-swr/client@2.0.1(@trpc/client@10.45.2(@trpc/server@10.45.2))(@trpc/server@10.45.2)(react@18.3.1)(swr@2.3.7(react@18.3.1))':
     dependencies:
       '@trpc/client': 10.45.2(@trpc/server@10.45.2)
       '@trpc/server': 10.45.2
       react: 18.3.1
-      swr: 2.3.6(react@18.3.1)
+      swr: 2.3.7(react@18.3.1)
 
   '@trpc/client@10.45.2(@trpc/server@10.45.2)':
     dependencies:
@@ -7024,7 +7024,7 @@ snapshots:
   metro-source-map@0.83.3:
     dependencies:
       '@babel/traverse': 7.26.5
-      '@babel/traverse--for-generate-function-map': '@babel/traverse@7.26.5'
+      '@babel/traverse--for-generate-function-map': '@babel/traverse@7.28.5'
       '@babel/types': 7.26.5
       flow-enums-runtime: 0.0.6
       invariant: 2.2.4
@@ -7848,7 +7848,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  swr@2.3.6(react@18.3.1):
+  swr@2.3.7(react@18.3.1):
     dependencies:
       dequal: 2.0.3
       react: 18.3.1
