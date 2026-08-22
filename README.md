@@ -1,11 +1,54 @@
-# 🧩 tRPC with Expo API Routes Demo
+# tRPC Expo API Routes Demo
 
-With the release of [Expo SDK 50](https://expo.dev/changelog/2023/12-12-sdk-50-beta), Expo Router now enables you to write server code on your Expo projects through the new [API Routes](https://docs.expo.dev/router/reference/api-routes).
+A full-stack mobile and web application demonstrating type-safe API communication using Expo Router API Routes, tRPC v10, and SWR.
 
-This is an example app that shows how you can setup [tRPC](https://trpc.io) on Expo with API Routes. This lets developers achieve full-stack typesafety on all of Expo's supported platforms: Android, iOS, Web, and now—server.
+## Overview
 
-## License
+This project showcases how to implement end-to-end type safety between React Native (Expo) client code and serverless backend API routes within the same repository using Expo Router v4, tRPC server/client, and `@trpc-swr/client`.
 
-This project is licensed under the MIT License.
+## Tech Stack
 
-Copyright © 2023 Angelo Geulin
+- **Framework**: React Native (v0.82), Expo (SDK 52), Expo Router v4
+- **API & RPC**: [tRPC](https://trpc.io/) (v10), `@trpc-swr/client`, SWR
+- **Validation**: [Zod](https://zod.dev/)
+- **Language**: TypeScript
+
+## Prerequisites
+
+- Node.js (v18 or higher recommended)
+- Package manager (`pnpm` or `npm`)
+- Expo Go mobile app or mobile emulator
+
+## Getting Started
+
+1. **Install dependencies**:
+   ```bash
+   pnpm install
+   # or
+   npm install
+   ```
+
+2. **Run the Development Server**:
+   ```bash
+   pnpm start
+   # or
+   npm start
+   ```
+
+3. **Launch on a Device / Emulator**:
+   - Press `a` for **Android Emulator**.
+   - Press `i` for **iOS Simulator**.
+   - Press `w` for **Web**.
+   - Scan the QR code using the **Expo Go** mobile app.
+
+## Available Scripts
+
+- `npm start` - Starts the Expo development server with API route handling.
+- `npm run android` - Runs the application on Android.
+- `npm run ios` - Runs the application on iOS.
+- `npm run web` - Runs the application in the web browser.
+- `npm test` - Launches Jest unit tests.
+
+## Author
+
+Created by [Mehfooz-ur-Rehman](https://github.com/MehfoozurRehman).
